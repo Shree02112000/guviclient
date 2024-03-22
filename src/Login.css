@@ -1,0 +1,77 @@
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/852/804/non_2x/abstract-blue-background-simple-design-for-your-website-free-vector.jpg'); /* Background image URL */
+    background-size: cover;
+    overflow: hidden; /* Prevent scrolling */
+    height: 150vh;
+  }
+  
+  /* Container Styles */
+  .login-container {
+    width: 400px;
+    margin: 100px auto; /* Center horizontally and provide some top margin */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  }
+  
+  /* Heading Styles */
+  .login-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Signup Link Styles */
+  .signup-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .blur-background {
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the background color and opacity as needed */
+    z-index: 1000; /* Ensure the element sits above other content */
+  }
+  

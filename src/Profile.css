@@ -1,0 +1,79 @@
+/* Profile Container */
+/* Profile Container */
+.profile-wrapper {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.profile-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: height 0.5s ease;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 80vh; /* Set maximum height to 80% of viewport height */
+}
+
+.btn{
+  float: right;
+}
+
+
+
+/* Profile Heading */
+.profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Profile Details */
+.profile-details {
+  margin-bottom: 20px;
+}
+
+/* Profile Detail Item */
+.profile-detail {
+  margin-bottom: 10px;
+}
+
+.profile-detail label {
+  font-weight: bold;
+}
+
+.profile-detail input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Logout Button */
+.logout-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Updated Details Container */
+.updated-details-container {
+  margin-top: 20px;
+}
